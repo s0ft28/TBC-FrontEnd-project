@@ -20,6 +20,7 @@
     font-size: 0.875rem;
     line-height: 1.25rem;
     margin-bottom: 0.75rem;
+    margin-left: 4px;
 }
 
 .gear-titl {
@@ -32,6 +33,7 @@
 .gear-desc {
     color: hsl(30 10% 40%);
     margin-top: 1rem;
+    margin-left: 4px;
 }
 
 .gear-btn {
