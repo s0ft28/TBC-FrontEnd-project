@@ -1,0 +1,140 @@
+.gear{
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-color: hsl(30 25% 88%);
+}
+
+.gear-top-container {
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: row;
+    display: flex;
+    margin-bottom: 4rem;
+}
+
+.gear-subtitl {
+    color: hsl(25 80% 45%);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.gear-titl {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.75rem;
+    line-height: 1;
+    color: hsl(30 10% 12%);
+}
+
+.gear-desc {
+    color: hsl(30 10% 40%);
+    margin-top: 1rem;
+}
+
+.gear-btn {
+    margin-top: 0px;
+    animation-duration: 300ms;
+    transition-duration: 300ms;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    padding: 8px 16px;
+    background-color: hsl(30 15% 96%);
+    border-color: hsl(30 15% 82%);
+    border-width: 1px;
+    border-radius: 8px;
+    gap: 0.5rem;
+    align-items: center;
+    justify-content: center;
+    height: 2.5rem;
+    display: inline-flex;
+    cursor: pointer;
+}
+
+.gear-btn:hover {
+    background-color: hsl(25 80% 45%);
+    color: hsl(30 15% 96%);
+}
+
+.gear-bottom-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+.gear-a {
+    color: inherit;
+    text-decoration: inherit;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: hsl(30 20% 98%);
+    animation-delay: 0ms;
+}
+
+.gear-a:hover {
+        transition-property: all;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 300ms;
+    animation-duration: 300ms;
+}
+
+.gear-preview {
+    overflow: hidden;
+    aspect-ratio: 16 / 9;
+}
+
+.gear-cover {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.gear-cover:hover {
+    transition-property: transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gear-article {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    margin-bottom: 0.75rem;
+}
+
+.gear-article-count, .gear-article-prefix {
+    color: hsl(30 10% 40%);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.gear-card-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    color: hsl(30 10% 12%);
+    margin-bottom: 0.5rem;
+}
+
+.gear-card-disc {
+    color: hsl(30 10% 40%);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.big-game:hover .read-guides .arrow {
+    transform: translateX(7px);
+}
+
+.waterfowl:hover .read-guides .arrow {
+    transform: translateX(7px);
+}
+
+.upland-turkey:hover .read-guides .arrow {
+    transform: translateX(7px);
+}

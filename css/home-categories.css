@@ -145,18 +145,14 @@
     transform-box: fill-box; 
 }
 
-.big-game:hover .read-guides .arrow {
+#a1:hover .tag1 .read-guides .arrow {
     transform: translateX(7px);
 }
 
-.waterfowl:hover .read-guides .arrow {
+#a2:hover .tag2 .read-guides .arrow {
     transform: translateX(7px);
 }
 
-.upland-turkey:hover .read-guides .arrow {
-    transform: translateX(7px);
-}
-
-.predator-hog:hover .read-guides .arrow {
+#a3:hover .tag3 .read-guides .arrow {
     transform: translateX(7px);
 }

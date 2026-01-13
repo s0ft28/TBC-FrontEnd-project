@@ -7,7 +7,8 @@
 
   <link rel="stylesheet" href="css/home-header.css">
   <link rel="stylesheet" href="css/home-hero.css">
-  <link rel="stylesheet" href="css/categories.css">
+  <link rel="stylesheet" href="css/home-categories.css">
+  <link rel="stylesheet" href="css/home-gear.css">
   
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="script.js"></script>
@@ -24,37 +25,37 @@
 </head>
 <body>
   <header class="header">
-  <div class="container">
-    <div class="header-inner">
+    <div class="container">
+      <div class="header-inner">
 
-      <a href="#" class="logo">
-        <span class="logo-text">
-          WILD<span class="logo-accent">GUIDE</span>
-        </span>
-      </a>
+        <a href="#" class="logo">
+          <span class="logo-text">
+            WILD<span class="logo-accent">GUIDE</span>
+          </span>
+        </a>
 
-      <nav class="nav">
-        <a href="#">Home</a>
-        <a href="#">Guides</a>
-        <a href="#">Gear</a>
-        <a href="#">Beginner Tips</a>
-        <a href="#">Resources</a>
-      </nav>
+        <nav class="nav">
+          <a href="#">Home</a>
+          <a href="#">Guides</a>
+          <a href="#">Gear</a>
+          <a href="#">Beginner Tips</a>
+          <a href="#">Resources</a>
+        </nav>
 
-      <button class="search-btn">
-        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon lucide lucide-search mr-2 h-4 w-4">
-          <circle cx="11" cy="11" r="8"></circle>
-          <path d="m21 21-4.3-4.3"></path>
-        </svg>
+        <button class="search-btn">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="search-icon lucide lucide-search mr-2 h-4 w-4">
+            <circle cx="11" cy="11" r="8"></circle>
+            <path d="m21 21-4.3-4.3"></path>
+          </svg>
 
-         Search Wiki
-      </button>
+          Search Wiki
+        </button>
 
-      <button class="menu-btn">☰</button>
+        <button class="menu-btn">☰</button>
 
+      </div>
     </div>
-  </div>
-</header>
+  </header>
 
 <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
   <div class="hero-bg absolute inset-0 bg-cover bg-center bg-no-repeat" style="background-image: url(assets/hero-deer.jpg);"></div>
@@ -82,8 +83,7 @@
           Browse Topics
         </button>
       </div>
-    </section>
-
+      
     <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
       <a href="#categories" class="scroll-down">
         <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chevron-down">
@@ -210,6 +210,101 @@
         </div>
       </div>
 
+    </div>
+  </div>
+</section>
+
+<section class="gear">
+  <div class="container mx-auto px-4">
+    <div class="gear-top-container">
+      <div class="gear-text-conatiner">
+        <p class="gear-subtitl">Know Your Equipment</p>
+        <h2 class="gear-titl">GEAR</h2>
+        <p class="gear-desc">Essential knowledge about hunting equipment, from firearms to field gear.</p>
+      </div>
+
+      <button class="gear-btn">View All Gear Guides</button>
+    </div>
+
+    <div class="gear-bottom-container">
+      <a class="gear-a" id="a1">
+        <div class="gear-preview"><img src="assets/gear-rifle.jpg" class="gear-cover"></div>
+        <div class="tag1 p-6">
+          <div class="gear-article">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open w-4 h-4 text-accent" style="color: hsl(25 80% 45%);">
+              <path d="M12 7v14"></path>
+              <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path>
+            </svg>
+            <span class="gear-article-count">18 Articles</span>
+            <span class="gear-article-prefix">• Weapons Guide</span>
+          </div>
+          <h3 class="gear-card-title">Firearms & Ammunition</h3>
+          <p class="gear-card-disc">Learn about rifles, shotguns, calibers, and choosing the right firearm for your hunt.</p>
+
+          <div class="read-guides">
+            <span class="read-guides-text">read more</span>
+            <span class="arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </span>
+          </div>
+
+        </div>
+      </a>
+
+      <a class="gear-a" id="a2">
+        <div class="gear-preview"><img src="assets/gear-binoculars.jpg" class="gear-cover"></div>
+        <div class="tag2 p-6">
+          <div class="gear-article">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open w-4 h-4 text-accent" style="color: hsl(25 80% 45%);">
+              <path d="M12 7v14"></path>
+              <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path>
+            </svg>
+            <span class="gear-article-count">12 Articles</span>
+            <span class="gear-article-prefix">• Equipment Guide</span>
+          </div>
+          <h3 class="gear-card-title">Optics & Sighting</h3>
+          <p class="gear-card-disc">Master scopes, binoculars, rangefinders, and how to properly sight your equipment.</p>
+
+          <div class="read-guides">
+            <span class="read-guides-text">read more</span>
+            <span class="arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </span>
+          </div>
+
+        </div>
+      </a>
+
+      <a class="gear-a" id="a3">
+        <div class="gear-preview"><img src="assets/gear-clothing.jpg" class="gear-cover"></div>
+        <div class="tag3 p-6">
+          <div class="gear-article">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open w-4 h-4 text-accent" style="color: hsl(25 80% 45%);">
+              <path d="M12 7v14"></path>
+              <path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path>
+            </svg>
+            <span class="gear-article-count">15 Articles</span>
+            <span class="gear-article-prefix">• Apparel Guide</span>
+          </div>
+          <h3 class="gear-card-title">Clothing & Layering</h3>
+          <p class="gear-card-disc">Stay comfortable in any weather with proper hunting clothing and camo strategies.</p>
+          <div class="read-guides">
+            <span class="read-guides-text">read more</span>
+            <span class="arrow">
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right">
+                <path d="M5 12h14"></path>
+                <path d="m12 5 7 7-7 7"></path>
+              </svg>
+            </span>
+          </div>
+        </div>
+      </a>
     </div>
   </div>
 </section>
