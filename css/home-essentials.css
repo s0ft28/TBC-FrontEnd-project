@@ -1,0 +1,89 @@
+.essentials {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+    background-color: hsl(145 40% 22%);
+}
+
+.essentials-container {
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+.essentials-text-container {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.essentials-subtitl {
+    color: hsl(25 80% 45%);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.essentials-titl {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 3.75rem;
+    line-height: 1;
+    margin: 0;
+    color: white;
+}
+
+.essentials-disc {
+    max-width: 42rem;
+    margin: 1rem auto 0 auto;
+    color: hsl(30deg 20% 98% / 70%);
+}
+
+.essentials-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 2rem;
+    width: 100%;
+}
+
+.essentials-card {
+    background-color: hsl(30deg 20% 98% / 5%);
+    border-radius: 8px;
+    box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: #e5e7eb;
+    padding: 24px;
+    color: hsl(30 20% 98%);
+    cursor: pointer;
+}
+
+.essentials-card:hover {
+    background-color: hsl(30deg 20% 98% / 10%);
+}
+
+.essentials-card-logo {
+    color: hsl(25 80% 45%);
+    background-color: hsl(25deg 80% 45% / 20%);
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    display: inline-flex;
+    margin-bottom: 1.25rem;
+}
+
+.essentials-card-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    margin-bottom: 0.75rem;
+    font-weight: inherit;
+    color: white;
+}
+
+.essentials-card-disc {
+    color: hsl(30deg 20% 98% / 70%);
+    line-height: 1.625;
+    font-size: 0.875rem;
+}
