@@ -1,0 +1,126 @@
+.types-main {
+    border-color: (40 30% 95%);
+    padding: 4rem 0;
+}
+
+.types-main-container {
+    padding: 0 1rem;
+    margin: 0 16rem;
+}
+
+.types-main-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 3rem;
+}
+
+.types-main-leftgrid {
+    grid-column: span 2 / span 2;
+}
+
+.types-main-leftgrid-title {
+    font-family: Bebas Neue, sans-serif;
+    color: hsl(25 30% 18%);
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.05em;
+    font-weight: inherit;
+}
+
+.types-main-leftgrid-answer {
+    color: hsl(25deg 30% 18% / 80%);
+    line-height: 1.625;
+    margin-bottom: 3rem;
+}
+
+.types-main-grid-species {
+    font-family: Bebas Neue, sans-serif;
+    color: hsl(25 30% 18%);
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+    margin-bottom: 1rem;
+    font-weight: inherit;
+    letter-spacing: 0.05em;
+}
+
+.types-main-species-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.types-main-species-card {
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.types-card-title {
+    color: hsl(25 30% 18%);
+    font-weight: 600;
+    font-family: Bebas Neue, system-ui, sans-serif;
+    letter-spacing: 0.05em;
+    font-size: inherit;
+}
+
+.types-card-subtitle {
+    color: hsl(25deg 30% 18% / 70%);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+
+.types-main-ul {
+    color: hsl(25deg 30% 18% / 80%);
+    list-style: none;
+}
+
+.types-main-li {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+}
+
+.types-main-hunting-tec {
+    border-left: 4px solid hsl(25 80% 45%);
+    padding-left: 1rem;
+}
+
+.types-main-hunting-tec-title {
+    color: hsl(25 30% 18%);
+    font-family: Bebas Neue, system-ui, sans-serif;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+    font-size: inherit;
+}
+
+.types-main-hunting-tec-subtitle {
+    color: hsl(25deg 30% 18% / 70%);
+}
+
+.types-top-box {
+    background-color: hsl(145deg 40% 22% / 10%);
+    padding: 1.5rem;
+    border-radius: 0.75rem;
+}
+
+.types-top-box-title {
+    color: hsl(25 30% 18%);
+    font-family: Bebas Neue, sans-serif;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+.types-top-box-li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.types-bottom-box {
+    border-radius: 0.75rem;
+    background-color: hsl(25deg 80% 45% / 10%);
+    padding: 1.5rem;
+    margin-top: 2rem;
+}

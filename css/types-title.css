@@ -1,0 +1,56 @@
+.types-title {
+    background-color: hsl(25 30% 18%);
+    padding: 4rem 0;
+}
+
+.types-title-container {
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
+    margin: 0 16rem;
+}
+
+.bck-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+    margin: 1.5rem 0;
+    border-radius: 0.5rem;
+    background-color: #FFFFFF00;
+    border-color: #FFFFFF00;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    color: hsl(30 15% 96%);
+}
+
+.bck-btn:hover {
+    background-color: hsl(25 80% 45%);
+}
+
+.bck-btn-txt {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    margin-top: 3px;
+}
+
+.types-title-txt {
+    font-family: Bebas Neue, sans-serif;
+    font-size: 3.75rem;
+    line-height: 1;
+    margin-bottom: 1rem;
+    color: hsl(40 30% 95%);
+    font-weight: inherit;
+    letter-spacing: 0.05em;
+}
+
+.types-title-subtxt {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    max-width: 42rem;
+    color: hsl(40deg 30% 95% / 80%);
+}
