@@ -1,0 +1,117 @@
+.footer {
+    color: hsl(40 30% 95%);
+    background-color: hsl(25 30% 18%);
+    border-color: hsl(30 15% 82%);
+}
+
+.footer-container {
+    padding: 4rem 1rem;
+    margin: 0 auto;
+    margin: 0 16rem;
+}
+
+.footer-main-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3rem;
+}
+
+.footer-logo-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 1rem;
+}
+
+.footer-logo-disc {
+    color: hsl(40deg 30% 95% / 70%);
+    line-height: 1.625;
+    margin-bottom: 1.5rem;
+}
+
+.footer-logos-div {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer-logos {
+    color: hsl(40deg 30% 95% / 60%);
+    cursor: pointer;
+}
+
+.footer-logos:hover {
+    color: #d97706;
+}
+
+.svg-color{
+    color: hsl(25 80% 45%);
+    margin-top: 3px;
+}
+
+.footer-contact-li {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+}
+
+.footer-shortcut-title, .footer-hunttype-title, .footer-contact-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    letter-spacing: 0.025em;
+    margin-bottom: 1rem;
+}
+
+.footer-shortcut-ul, .footer-hunttype-ul, .footer-contact-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+
+.footer-shortcut-li, .footer-hunttype-li, .footer-contact-li {
+    color: hsl(40deg 30% 95% / 70%);
+}
+
+.footer-shortcut-li:hover , .footer-hunttype-li:hover , .footer-contact-li:hover {
+    color: hsl(25 80% 45%);
+}
+
+li {
+    margin-top: 0.75rem;
+}
+
+.footer-bottom-container {
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    border-top-width: 1px;
+    border-color: hsl(40deg 30% 95% / 10%);
+    padding-top: 2rem;
+    margin-top: 3rem;
+}
+
+.footer-bottom-subtitle {
+    color: hsl(40deg 30% 95% / 50%);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.copyright-container {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+}
+
+.privacy-policy, .terms-of-service {
+    color: hsl(40deg 30% 95% / 50%);
+    text-decoration: inherit;
+    cursor: pointer;
+}
+
+.privacy-policy:hover, .terms-of-service:hover {
+    color: hsl(40deg 30% 95% / 90%);
+}
