@@ -1,0 +1,72 @@
+.guides-container {
+    padding: 0 2rem;
+    margin: 0 16rem;
+}
+
+.guides-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2rem;
+}
+
+.guides-grid-card {
+    background-color: hsl(25deg 30% 18% / 50%);
+    border-color: hsl(40deg 30% 95% / 10%);
+    border-width: 1px;
+    padding: 2rem;
+    border-radius: 0.5rem;
+}
+
+.guides-grid-card-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+}
+
+.guides-grid-card-svg {
+    background-color: hsl(25deg 80% 45% / 20%);
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.guides-grid-card-txt {
+    flex: 1 1 0%;
+}
+
+.guides-grid-card-h3 {
+    font-family: Bebas Neue, sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    letter-spacing: 0.05em;
+    color: hsl(40 30% 95%);
+    margin-bottom: 0.5rem;
+    transition-duration: 0.3s;
+}
+
+.guides-svg {
+    color: hsl(40deg 30% 95% / 40%);
+    transition-duration: 0.3s;
+}
+
+.guides-grid-card-articles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.guides-grid-card:hover {
+    border-color: hsl(25 80% 45% / 50%);
+}
+
+.guides-grid-card:hover .guides-grid-card-h3 {
+    color: hsl(25 80% 45%);
+}
+
+.guides-grid-card:hover .guides-grid-card-svg {
+    background-color: hsl(25deg 80% 45% / 30%);
+}
+
+.guides-grid-card:hover .guides-svg {
+    color: hsl(25deg 80% 45%);
+    transform: translateX(5px);
+}

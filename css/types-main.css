@@ -124,3 +124,21 @@
     padding: 1.5rem;
     margin-top: 2rem;
 }
+
+.types-main-doggrid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.types-main-doggrid-card {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: hsl(145deg 40% 22% / 10%);
+}
+
+.types-calling-ol {
+    color: hsl(25deg 30% 18% / 80%);
+    list-style-position: inside;
+    list-style-type: decimal;
+}

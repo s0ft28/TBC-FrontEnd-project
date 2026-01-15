@@ -4,7 +4,6 @@
 }
 
 .types-title-container {
-    width: 100%;
     padding: 0 1rem;
     margin: 0 auto;
     margin: 0 16rem;
@@ -53,4 +52,10 @@
     line-height: 1.75rem;
     max-width: 42rem;
     color: hsl(40deg 30% 95% / 80%);
+}
+
+.types-title-subtxt2 {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    color: hsl(40deg 30% 95% / 70%);
 }
