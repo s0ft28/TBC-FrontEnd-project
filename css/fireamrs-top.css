@@ -1,0 +1,85 @@
+.firearms-top-section {
+    min-height: 400px;
+    position: relative;
+}
+
+.firearms-top-img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    inset: 0px;
+    position: absolute;
+    z-index: 1;
+}
+
+.firearms-top-imgcover {
+    position: absolute;
+    background-image: linear-gradient(to top, hsl(25 30% 18%), hsl(25 30% 18% / 70%), hsl(25 30% 18% / 30%) );
+    inset: 0px;
+    z-index: 2;
+}
+
+.firearms-top-text {
+    position: absolute;
+    display: flex;
+    align-items: flex-end;
+    z-index: 10;
+    inset: 0;
+}
+
+.firearms-top-container {
+    padding: 0 1rem;
+    margin: 0 16rem;
+}
+
+.bck-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    height: 2.5rem;
+    padding: 0.5rem 1rem;
+    margin: 1.5rem 0;
+    border-radius: 0.5rem;
+    background-color: #FFFFFF00;
+    border-color: #FFFFFF00;
+    cursor: pointer;
+    transition-duration: 0.3s;
+    color: hsl(30 15% 96%);
+}
+
+.bck-btn:hover {
+    background-color: hsl(25 80% 45%);
+}
+
+.bck-btn-txt {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.15rem;
+    line-height: 1.25rem;
+    font-weight: 500;
+    margin-top: 3px;
+}
+
+.firearms-pretitle {
+    color: hsl(25 80% 45%);
+    letter-spacing: 0.2em;
+    font-weight: 500;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.firearms-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4.5rem;
+    line-height: 1;
+    color: hsl(40 30% 95%);
+    margin-bottom: 1rem;
+}
+
+.firearms-subtitle {
+    color: hsl(40deg 30% 95% / 80%);
+    max-width: 42rem;
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+}

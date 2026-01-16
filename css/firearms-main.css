@@ -1,0 +1,177 @@
+.firearms-main-section {
+    background-color: hsl(40 30% 95%);
+    padding: 4rem 0;
+}
+
+.firearms-main-container {
+    padding: 0 1rem;
+    margin: 0 16rem;
+}
+
+.firearms-title-div {
+    text-align: center;
+    max-width: 48rem;
+    margin-bottom: 4rem;
+    margin: 0 auto;
+}
+
+.firearms-title1 {
+    font-family: Bebas Neue, sans-serif;
+    color: hsl(25 30% 18%);
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.firearms-subtitle1 {
+    color: hsl(25deg 30% 18% / 80%);
+    font-size: 1.125rem;
+    line-height: 1.625;
+}
+
+.firearms-title,
+.firearms-subtitle {
+    max-width: 48rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.firearms-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    margin-bottom: 4rem;
+    gap: 2rem;
+}
+
+.firearms-card {
+    color: hsl(40 30% 95%);
+    border-radius: 1rem;
+    padding: 2rem;
+}
+
+.firearms-card-icon-div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+.firearms-card-icon {
+    display: flex;
+    background-color: hsl(25deg 80% 45% / 20%);
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+}
+
+.firearms-card-title {
+    font-family: Bebas Neue, sans-serif;
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+}
+
+.firearms-card-li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.firearms-table-title {
+    font-family: Bebas Neue, sans-serif;
+    color: hsl(25 30% 18%);
+    text-align: center;
+    font-size: 2.25rem;
+    font-weight: inherit;
+    line-height: 2.5rem;
+    margin-bottom: 2rem;
+    letter-spacing: 0.05em;
+}
+
+.firearms-table {
+    background-color: hsl(30 15% 96%);
+    border-radius: 0.75rem;
+    overflow: hidden;
+    width: 100%;
+}
+
+.firearms-table-th {
+    font-family: Bebas Neue, sans-serif;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    text-align: left;
+    padding: 1rem 1.5rem;
+}
+
+.firearms-table-body-tr:hover td {
+    background-color: hsl(30 15% 90% / 50%);
+}
+
+.firearms-table-main-td, .firearms-table-second-td, .firearms-table-td {
+    padding: 1rem 1.5rem;
+    font-weight: 600;
+}
+
+.firearms-table-main-td {
+    color: hsl(25 30% 18%);
+}
+
+.firearms-table-second-td{
+    color: hsl(25deg 30% 18% / 70%);
+}
+
+.firearms-table-td-span {
+    padding: 0.25rem 0.75rem;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    font-weight: 500;
+}
+
+.firearms-safety-div {
+    background-color: hsl(25deg 80% 45% / 10%);
+    border-color: hsl(25 80% 45%);
+    padding: 2rem;
+    border-width: 2px;
+    border-radius: 1rem;
+}
+
+.firearms-safety-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.firearms-safety-svg {
+    display: flex;
+    flex-shrink: 0;
+    height: 3rem;
+    width: 3rem;
+    background-color: hsl(25 80% 45%);
+    border-radius: 9999px;
+    justify-content: center;
+    align-items: center;
+}
+
+.firearms-safety-title {
+    font-family: Bebas Neue, sans-serif;
+    color: hsl(25 30% 18%);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-weight: inherit;
+    letter-spacing: 0.05em;
+    margin-bottom: 1rem;
+}
+
+.firearms-safety-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.firearms-safety-grid-card {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}

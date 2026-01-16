@@ -1,0 +1,30 @@
+.firearms-stats-section {
+    background-color: hsl(145 40% 22%);
+    padding: 2rem 0;
+}
+
+.firearms-stats-container {
+    padding: 0 1rem;
+    margin: 0 16rem;
+}
+
+.firearms-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    text-align: center;
+    gap: 1.5rem;
+}
+
+.firearms-stats-count {
+    font-family: Bebas Neue, sans-serif;
+    color: hsl(25 80% 45%);
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+}
+
+.firearms-stats-disc {
+    margin-top: 0.25rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    color: hsl(40deg 30% 95% / 70%);
+}
