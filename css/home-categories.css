@@ -139,9 +139,9 @@
 }
 
 .arrow {
-    display: inline-block;              /* important */
+    display: inline-block;
     transition: transform 150ms ease;
-    transform-origin: left center;      /* pivot point */
+    transform-origin: left center;
     transform-box: fill-box; 
 }
 

@@ -1,0 +1,53 @@
+.gear-container {
+    padding: 0 2rem;
+    margin: 0 16rem;
+}
+
+.gear-cards-title {
+    font-family: Bebas Neue, sans-serif;
+    color: hsl(40 30% 95%);
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.gear-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.gear-card {
+    background-image: linear-gradient(to bottom right, hsl(25 30% 18%), hsl(25deg 30% 18% / 50%) );
+    border-color: hsl(25deg 80% 45% / 20%);
+    border-width: 1px;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+}
+
+.gear-svg {
+    background-color: hsl(25deg 80% 45% / 20%);
+    border-radius: 0.5rem;
+    padding: 0.75rem;
+    margin-bottom: 1rem ;
+    width: fit-content;
+}
+
+.gear-cards-subtitle{
+    color: hsl(40deg 30% 95% / 60%);
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+    margin-bottom: 1rem;
+}
+
+.gear-card:hover .arrow {
+    transform: translateX(7px);
+}
+
+.gear-card-mute {
+    background-color: hsl(25deg 30% 18% / 30%);
+    border-color: hsl(40deg 30% 95% / 10%);
+    border-radius: 0.5rem;
+    border-width: 1px;
+    padding: 1.5rem;
+}
