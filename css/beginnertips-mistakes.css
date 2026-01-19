@@ -1,0 +1,25 @@
+.tips-mistakes-container {
+    padding: 0 2rem;
+    margin: 0 16rem;
+}
+
+.tips-mistakes-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 1.5rem;
+}
+
+.tips-mistakes-card {
+    background-color: hsl(25deg 30% 18% / 50%);
+    border-color: hsl(40deg 30% 95% / 10%);
+    border-width: 1px;
+    border-radius: 0.5rem;
+    padding: 1.25rem;
+}
+
+.tips-mistakes-card-linedtxt {
+    color: #f87171cc;
+    text-decoration-line: line-through;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}

@@ -4,11 +4,6 @@
     background-color: hsl(145 40% 22%);
 }
 
-.essentials-container {
-    padding: 0 16px;
-    margin: 0 auto;
-}
-
 .essentials-text-container {
     text-align: center;
     margin-bottom: 4rem;
@@ -40,9 +35,26 @@
 
 .essentials-grid {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 2rem;
     width: 100%;
+}
+
+@media (min-width: 769px) {
+    .essentials-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .essentials-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 425px) {
+    .essentials-grid {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
 }
 
 .essentials-card {

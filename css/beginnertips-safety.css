@@ -1,0 +1,31 @@
+.tips-safety-container {
+    padding: 0 2rem;
+    margin: 0 16rem;
+}
+
+.tips-safety-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+}
+
+.tips-safety-card {
+    background-color: hsl(25 30% 18%);
+    border-color: hsl(25deg 80% 45% / 20%);
+    border-width: 1px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+}
+
+.tips-safety-num {
+    color: hsl(25 80% 45%);
+    font-family: Bebas Neue, sans-serif;
+    font-size: 1.5rem;
+    margin-right: .75rem;
+}
+
+.tips-safety-txt {
+    color: hsl(40deg 30% 95% / 80%);
+    font-size: .875rem;
+    line-height: 1.25rem;
+}

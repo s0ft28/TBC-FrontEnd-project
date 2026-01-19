@@ -64,8 +64,19 @@
 
 .gear-bottom-container {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
     gap: 2rem;
+}
+
+@media (min-width: 769px) {
+    .gear-bottom-container {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 768px) {
+    .gear-bottom-container {
+        grid-template-columns: repeat(1, minmax(0, 1fr));
+    }
 }
 
 .gear-a {

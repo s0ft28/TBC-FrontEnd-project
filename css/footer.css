@@ -4,16 +4,27 @@
     border-color: hsl(30 15% 82%);
 }
 
-.footer-container {
-    padding: 4rem 1rem;
-    margin: 0 auto;
-    margin: 0 16rem;
-}
-
 .footer-main-container {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
     gap: 3rem;
+}
+
+@media (min-width: 769px) {
+    .footer-main-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-main-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 425px) {
+    .footer-main-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
 
 .footer-logo-title {

@@ -4,18 +4,18 @@
     background-color: (30 15% 96%);
 }
 
-.subscribe-container {
-    padding: 0 16px;
-    margin: 0 auto;
-}
-
 .subscribe-box {
     border-radius: 1rem;
     overflow: hidden;
     position: relative;
     background-color: hsl(30 35% 25%);
-    margin: 0 10rem;
     padding: 6rem 0;
+}
+
+@media (min-width: 1440) {
+    .subscribe-box {
+        margin: 0 10rem;
+    }
 }
 
 .subscribe-background {
@@ -64,11 +64,24 @@
     margin-bottom: 2.5rem;
 }
 
-.subscribe-btn-container {
-    display: flex;
-    flex-direction: row;
-    gap: 1rem;
-    justify-content: center;
+@media (max-width: 768px) {
+    .subscribe-btn-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.5rem;
+    }
+
+    .subscribe-first-btn, .subscribe-second-btn {
+        width: 80%;
+        margin: 0 auto 1rem;
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width: 769px) {
+    .subscribe-first-btn {
+        font-size: 1.125rem;
+    }
 }
 
 .subscribe-first-btn {
@@ -78,7 +91,6 @@
     letter-spacing: 0.05em;
     text-transform: uppercase;
     font-weight: 600;
-    font-size: 1.125rem;
     line-height: 1.75rem;
     padding: 0 2.5rem;
     background-color: hsl(25 80% 45%);
